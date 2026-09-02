@@ -49,7 +49,7 @@ const skills = [
 export function SkillsSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-accent/5 to-background">
-      <div className="container max-w-6xl">
+      <div className="container max-w-6xl 2xl:max-w-[1600px]">
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
           Skills & Expertise
         </h2>

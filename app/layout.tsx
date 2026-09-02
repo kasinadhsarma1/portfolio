@@ -31,7 +31,7 @@ async function LayoutWrapper({ children }: { children: React.ReactNode }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       {!isStudio && <MainNav />}
-      {children}
+      <div className={!isStudio ? "pb-24 md:pb-28" : undefined}>{children}</div>
       {!isStudio && <Toaster />}
     </ThemeProvider>
   )

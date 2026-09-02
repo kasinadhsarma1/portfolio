@@ -9,7 +9,7 @@ export function CertificatesSection() {
   
   return (
     <section className="py-16 bg-gradient-to-b from-background to-accent/5">
-      <div className="container max-w-6xl space-y-16">
+      <div className="container max-w-6xl 2xl:max-w-[1600px] space-y-16">
         {/* Featured Certifications */}
         <div>
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">

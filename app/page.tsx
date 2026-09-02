@@ -77,7 +77,7 @@ export default function HomePage() {
         <ScrollSection direction="down">
           {/* Hero Section */}
           <section className="relative py-20">
-            <div className="container max-w-6xl">
+            <div className="container max-w-6xl 2xl:max-w-[1600px]">
               <div className="flex flex-col md:flex-row items-center gap-12">
                 <div className="flex-shrink-0">
                   <div className="relative w-48 h-48 md:w-64 md:h-64">
@@ -162,7 +162,7 @@ export default function HomePage() {
         <ScrollSection direction="up">
           {/* About Section */}
           <AnimatedSection className="py-16">
-            <div className="container max-w-6xl">
+            <div className="container max-w-6xl 2xl:max-w-[1600px]">
               <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
                 About Me
               </h2>
@@ -193,7 +193,7 @@ export default function HomePage() {
         <ScrollSection direction="up" delay={200}>
           {/* Contact CTA */}
           <AnimatedSection className="py-16">
-            <div className="container max-w-6xl">
+            <div className="container max-w-6xl 2xl:max-w-[1600px]">
               <div className="relative p-12 rounded-3xl overflow-hidden text-center bg-gradient-to-br from-card via-card/95 to-card/90 dark:from-card/90 dark:to-card/70 border border-primary/20 hover:border-primary/40 shadow-lg hover:shadow-primary/10">
                 <div className="relative z-10 max-w-3xl mx-auto">
                   <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">

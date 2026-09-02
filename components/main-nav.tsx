@@ -48,11 +48,11 @@ const MainNav = () => {
 
   return (
     <div className={cn(
-      "fixed left-0 right-0 z-50 flex justify-center p-4",
+      "fixed left-0 right-0 z-50 flex justify-center p-4 pointer-events-none",
       "bottom-0"
     )}>
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 pointer-events-auto">
           {/* Mobile compact pill: menu trigger + theme toggle grouped together */}
           <div className={cn(
             "flex md:hidden items-center gap-1 bg-background/95 p-1.5",
@@ -209,7 +209,7 @@ const MainNav = () => {
         size="icon"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         className={cn(
-          "fixed bottom-20 right-4 text-primary",
+          "fixed bottom-20 right-4 text-primary pointer-events-auto",
           "transition-all duration-200",
           "hover:text-primary/90 hover:bg-primary/10",
           "md:bottom-24",
